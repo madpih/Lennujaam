@@ -1,0 +1,51 @@
+body {
+    background: #2a2e32;
+  }
+  
+  .text-small {
+    font-size: 0.9rem;
+  }
+  
+  a, .nav-link{
+    color: inherit;
+    color:darkgray;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+
+ 
+  a:hover, a:focus, .nav-link:hover {
+    text-decoration: none;
+    color:orangered;
+    
+  }
+  
+  .form-control {
+    background: #212529;
+    color:white;
+  }
+  
+   footer {
+    background: #212529;
+  }
+  
+  
+     body, html {
+      height: 100%;
+    }
+
+    th, td{
+      padding:10px;
+      font-weight: 400;
+      text-align: left;
+    }
+
+    .date th{
+      font-weight:600;
+
+    }
+    
+
+  
+
+   
