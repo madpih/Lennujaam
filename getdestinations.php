@@ -1,5 +1,5 @@
 <?php
-require($_SERVER["DOCUMENT_ROOT"]."/../../config2.php");
+require($_SERVER["DOCUMENT_ROOT"]."/../config2.php");
 global $yhendus;
 
 $q = $_GET['q'];

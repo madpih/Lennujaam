@@ -5,6 +5,7 @@
                     <h1 class="display-4 text-uppercase">Sihtkohad</h1>
                     <p class="fst-italic text-muted mb-5">Sihtkohta lendavate lennufirmade nägemiseks kliki sihtkohal, lennufirma info nägemiseks kliki seejärel lennufirma logol.</p>
                     <div class="row gy-5 justify-content-center">
+
                     <?php
                     $kask=$yhendus->prepare("SELECT id, destination FROM destinations");
                     $kask->execute();
@@ -35,7 +36,7 @@
                                         echo "<ul class='list-group'>";
                                         while ($kask_airlines->fetch()) {
                                             $imageData = base64_encode(file_get_contents($logo));
-                                            echo "<li><a href='?page=airlines&id=$airline_id'>".'<img src="data:image/jpeg;base64,'.$imageData.'" style="max-width:200px; height:auto;;"></li>';
+                                            echo "<li><a href='?page=airlines&id=$airline_id'>".'<img src="data:image/jpeg;base64,'.$imageData.'" style="max-width:200px; height:auto;"></a></li>';
                                         }
                                         echo "</ul>";
                                     } else {

@@ -30,3 +30,10 @@ Väljuvate lendude sisestamine ja (vajadusel) kustutamine. Lennustaatuste määr
 ### Esileht
 
 Landing page.
+
+## Tehnoloogiad
+PHP
+MariaDB
+HTML/CSS
+Bootstrap
+AJAX
