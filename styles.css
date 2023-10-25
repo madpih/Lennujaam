@@ -11,10 +11,14 @@ body {
     color:darkgray;
     text-decoration: none;
     transition: all 0.3s;
+    
   }
 
- 
-  a:hover, a:focus, .nav-link:hover {
+  nav a.active {
+    background-color: darkgray;
+}
+
+ a:hover, a:focus, .nav-link:hover, .btn:hover {
     text-decoration: none;
     color:orangered;
     
@@ -44,7 +48,11 @@ body {
       font-weight:600;
 
     }
-    
+
+    li{
+      list-style-type: none;
+    }
+
 
   
 
