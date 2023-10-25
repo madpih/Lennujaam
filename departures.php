@@ -18,7 +18,7 @@
                     <table class="table table-borderless table-sm text-muted">
                     <?php
                        
-                        $kask = $yhendus ->prepare("SELECT id, departuretime, flightnumber, destination, airline, flightstatus FROM departures where departuretime >= CURDATE()-1 order by departuretime");
+                        $kask = $yhendus ->prepare("SELECT id, departuretime, flightnumber, destination, airline, flightstatus FROM departures where departuretime >= CURDATE()-1 AND departuretime < CURDATE()+2 order by departuretime");
                         $kask->bind_result($id, $departuretime, $flightnumber, $destination, $airline, $flightstatus);
                         $kask->execute();
                         
