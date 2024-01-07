@@ -1,7 +1,7 @@
 # Lennujaam
 ## Autor: Madis Pihlasalu
 ## Üldkirjeldus
-
+Demo: https://madispihlasalu22.thkit.ee/veebirakendused/lennujaam/
 Kooliprojekt. Lennujaamainfo haldamise rakendus - mille abil on võimalik hallata infot saabuvate- ja lahkuvate lendude, lennufirmade ja sihtkohtade kohta. 
 
 Saabuvate ja lahkuvate lendude graafiku lisamiseks peab olema eelnevalt lisatud nii lennufirmad ja kui ka sihtkohad. Lendude lisamisel on võimalik lisada lennufirmale ainult need sihtkohad/lähtekohad, mis on eelnevalt lennufirmaga seotud.
